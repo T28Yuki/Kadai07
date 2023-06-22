@@ -1,0 +1,104 @@
+body.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Viewport Height */
+    margin: 0;
+}
+
+#form {
+    width: 300px;
+    height: auto;
+    background-color: #fff9db;
+    font-size: 20px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.data_input {
+    width: 200px;
+    height: 30px;
+}
+
+.place_input {
+    width: 200px;
+    height: 60px;
+    margin: 15px auto; 
+}
+
+.select_input {
+    width:100px;
+    height: 30px;
+    margin: 15px 100px;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.Button-style {
+    text-align:right;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0.5em 1em 0.3em;
+    position: relative;
+    color: #990000;
+    border: solid 2px #990000;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .Button-style:before {
+    background-color: #f1e2e2;
+    border-radius: 5px;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: -1;
+  }
+
+  .button {
+    font-size: 16px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove default underline */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    display: flex; /* Make the list items align horizontally */
+    justify-content: center; /* Center the items */
+}
+
+li {
+    margin-right: 10px; /* Add some space between the buttons */
+}
+
+/* Last item should not have a right margin */
+li:last-child {
+    margin-right: 0;
+}
+
+.data-block {
+    background-color: #fbfadd;
+    border: 1px solid #000; /* 枠線の色と太さ */
+    padding: 10px; /* 内側の余白 */
+    margin-bottom: 10px; /* データブロック同士の間隔 */
+    width: 300px;
+    text-align: center;
+    line-height: 2px;
+    height: 400px;
+}
